@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hanni316/Mini_project.git/static/css/main.11bcb925.css",
+    "main.js": "/hanni316/Mini_project.git/static/js/main.7bd9f2ef.js",
+    "static/js/787.ec704a7a.chunk.js": "/hanni316/Mini_project.git/static/js/787.ec704a7a.chunk.js",
+    "static/media/benis.jpg": "/hanni316/Mini_project.git/static/media/benis.a3d28caec9f0e2dbf59e.jpg",
+    "static/media/oppen.jpg": "/hanni316/Mini_project.git/static/media/oppen.a7ea7da14d990e3141be.jpg",
+    "index.html": "/hanni316/Mini_project.git/index.html",
+    "main.11bcb925.css.map": "/hanni316/Mini_project.git/static/css/main.11bcb925.css.map",
+    "main.7bd9f2ef.js.map": "/hanni316/Mini_project.git/static/js/main.7bd9f2ef.js.map",
+    "787.ec704a7a.chunk.js.map": "/hanni316/Mini_project.git/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11bcb925.css",
+    "static/js/main.7bd9f2ef.js"
+  ]
+}
