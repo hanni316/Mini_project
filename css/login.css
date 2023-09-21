@@ -1,0 +1,71 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),
+        0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form>p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form .login {
+    outline: 0;
+    background: rgba(186, 186, 186, 0.1);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    border: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.form button img {
+    width: 60px;
+    height: 60px;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #010101;
+    text-decoration: none;
+}
