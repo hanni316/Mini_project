@@ -1,0 +1,135 @@
+.App {
+  display: flex;
+  flex-direction: column; /* 세로로 배치 */
+  align-items: left; /* 중앙 정렬 */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+  height: 2000px;
+}
+
+
+
+
+
+.content1 {
+  display: flex;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  align-items: flex-start;
+}
+
+.movie-list {
+  width: 30%;
+}
+
+.movie-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie-list li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.movie-details {
+  text-align: left;
+  flex: 1;
+}
+
+.movie-details img {
+  max-width: 100%;
+  height: auto;
+}
+
+.movie-details h2 {
+  margin: 10px 0;
+}
+
+.movie-details p {
+  color: #777;
+}
+.sinob {
+  width: 30%;
+  height: 800px;
+}
+
+.movie1 {
+  height: 200px;
+  width: 200px;
+  background-image: url("/oppen.jpg");
+  margin-right:  50px;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  display: inline-block;
+  
+}
+.movie2 {
+  height: 200px;
+  width: 200px;
+  background-image: url("/benis.jpg");
+  margin-right:  50px;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  display: inline-block;
+}
+
+.cgv {
+  height: 200px;
+  width: 200px;
+  background-image: url("/cgv.jpg");
+  margin-right:  50px;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+}
+.lotte {
+  height: 200px;
+  width: 200px;
+  background-image: url("/lotte.jpg");
+  margin-right:  50px;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+}
+.megabox {
+  height: 200px;
+  width: 200px;
+  background-image: url("/megabox.jpg");
+  margin-right:  50px;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+}
+
+.footer {
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed; /* 페이지에 고정 */
+    bottom: 0; /* 하단에 위치 */
+    width: 100%; /* 전체 너비로 확장 */
+    height: 4%;
+  }
+  
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+.right h3 {
+  position: absolute;
+  top: 200px;
+  right: 30px;
+}
