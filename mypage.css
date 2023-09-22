@@ -17,6 +17,7 @@ body {
     border-radius: 50%;
 }
 
+/* 업로드 버튼 스타일 */
 #uploadButton {
     display: block;
     margin: 0 auto;
@@ -26,6 +27,14 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+/* 파일 선택 상자 스타일 */
+#fileInput {
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* 텍스트를 가운데 정렬 */
 }
 
 .sign-form {
@@ -46,7 +55,7 @@ label {
 }
 
 .form-control {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
