@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./SingIn.css">
+</head>
+
+<body>
+    <div class="singin">
+        <div class="member">
+            <img src="./kofic.jpg" style="width: 150px;" height="50px">
+        </div>
+        <form method="post" action=""></form>
+        <div class="field">
+            <b>이름</b>
+            <span class="text"><input id="memberName" placeholder="필수"></span>
+        </div>
+        <div class="field">
+            <b>아이디</b>
+            <span class="id"><input id="id" maxlength="8" minlength="5" placeholder="5~8 사이로 입력해 주세요."></span>
+        </div>
+        <div class="field">
+            <b>비밀번호</b>
+            <span class="pwd"><input id="password" maxlength="8" minlength="6" placeholder="6~8 사이로 입력해 주세요."></span>
+        </div>
+        <div class="field">
+            <b>비밀번호 재확인</b>
+            <span class="re-pwd"><input id="password2"></span>
+        </div>
+        <div class="field">
+            <b>본인 확인 이메일</b>
+            <span class="email"><input id="email" type="email">
+                <select>
+                    <option value="">naver.com</option>
+                    <option value="">daum.net</option>
+                    <option value="">gmail.com</option>
+                    <option value="">nate.com</option>
+                </select>
+            </span>
+        </div>
+    
+        <div class="tel">
+
+            <b>휴대전화</b>
+            <select class="public">
+                <option value="">대한민국 +82</option>
+            </select>
+            <div class="num1">
+                <input id="tel" type="tel" placeholder="전화번호 입력" style="width:310px">
+
+                <input type="button" style="width:150px;" value="인증번호 받기">
+            </div>
+            <div class="num2">
+                <input type="text" placeholder="인증번호를 입력하세요." style="width:469px;">
+            </div>
+        </div>
+        <div class="num3">
+            <input type="submit" value="가입하기" style="width: 472px;">
+        </div>
+    </form>
+
+        <div class="footer">
+            <div>
+                <a href="#none">이용약관</a>
+                <a href="#none">개인정보처리방침</a>
+                <a href="#none">책임의 한계와 법적고지</a>
+                <a href="#none">회원정보 고객센터</a>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    
+</body>
+
+</html>

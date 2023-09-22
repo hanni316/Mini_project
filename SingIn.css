@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Noto+Serif+KR:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 3.5px;
+    margin: 2px;
+}
+
+body {
+    background-color: white;
+    line-height: normal;
+}
+
+.singin {
+    border: 1px rgb(215, 215, 215) solid;
+    border-radius: 10px;
+    width: 600px;
+    height: 800px;
+    background-color: #fefbfb;
+    box-shadow: 10px 10px 5px rgb(189, 189, 189);
+    margin: auto;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif KR', serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.member b {
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: medium
+}
+
+.field {
+    padding: 25px 10px;
+}
+
+
+.tel {
+    padding: 20px 10px;
+}
+
+.public {
+    width: 150px;
+    margin-left: 15px;
+}
+
+.num1 {
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.num2 {
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.num3 {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    padding-top: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+}
